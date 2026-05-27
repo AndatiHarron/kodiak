@@ -22,13 +22,13 @@ const Header = () => {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-transparent backdrop-blur-md border-b border-border/20">
         <div className="container mx-auto px-2">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-24">
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img 
                 src={logo} 
                 alt="Kodiak Solutions Limited" 
-                className="h-14 md:h-18 w-auto"
+                className="h-18 md:h-24 w-auto"
               />
             </Link>
 
