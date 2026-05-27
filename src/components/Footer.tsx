@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Facebook, Linkedin, Twitter, MessageSquare, Phone, Mail, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,9 +12,9 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <img 
-              src="/lovable-uploads/bd41d491-0ef4-4bf7-91f9-7e5ff7eab679.png" 
+              src={logo} 
               alt="Kodiak Solutions Limited" 
-              className="h-12 w-auto brightness-0 invert"
+              className="h-12 w-auto"
             />
             <p className="text-sm text-gray-300">
               Your trusted partner in gold mining excellence.
