@@ -447,7 +447,7 @@ const Index = () => {
               <p className="text-sm text-white/70">
                 <span className="inline-flex items-center gap-2">
                   <span className="inline-flex h-2 w-2 rounded-full bg-primary"></span>
-                  Trusted by 12+ clients across 5+ Counties
+                  Trusted by 250+ clients across 5+ Counties
                 </span>
               </p>
             </div>

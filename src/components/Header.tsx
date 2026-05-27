@@ -28,7 +28,7 @@ const Header = () => {
               <img 
                 src={logo} 
                 alt="Kodiak Solutions Limited" 
-                className="h-24 md:h-32 w-auto"
+                className="h-14 md:h-18 w-auto"
               />
             </Link>
 
